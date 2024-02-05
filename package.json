@@ -1,0 +1,26 @@
+{
+  "name": "telegramgpt_bot",
+  "version": "1.0.0",
+  "description": "Communicate with your own chat-bot in Telegram in a voice or text",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./scr/app.js",
+    "start": "cross-env NODE_ENV=production node ./scr/app.js"
+  },
+  "keywords": [],
+  "author": "Oleh_Kliapko <goldclub1977@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.4.0",
+    "config": "^3.3.9",
+    "dotenv": "^16.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "openai": "^3.2.1",
+    "telegraf": "^4.12.2"
+  }
+}
